@@ -1,0 +1,38 @@
+/* * este conector afectara todas las etiquetas de html, en este caso estamos colocando en 0 valores de margin y padding */
+
+
+* {
+    /* padding coloca un margen interno en el elemento */
+    /* margin coloca un margen externo en el elemento */
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/* este sirve para cambiar de color a los links que no salgan feos */
+
+/* para poner el titulo aca (h1) */
+
+/* ponerle color al fondo de la pagina */
+header{
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    /* display flex afecta unicamente a los hijos directos del nav o elementos que lo coloquemos  */
+    justify-content: space-between;
+    /* el justify content se puede usar si esta display con el valor flex, esta propiedad siempre trabaja en el eje x (horizontal)  */
+    align-items: center;
+    /* align-items siempre funcionara para centrar o mover el contenido de display con el valor flex y siempre trabaja con el valor y (vertical) */
+
+}
+a {
+    margin: 30px;
+    padding: 30px;
+
+}
+img{
+    width: 40px;
+}
